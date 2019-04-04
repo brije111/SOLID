@@ -72,10 +72,82 @@ class EmployeeRepo{
 
 
 **Example 2**
+```
+package srp;
 
- 
+import java.util.List;
+
+public class ProductRepo {
+	Database initDb() {
+		//open database connection here
+		return null;
+	}
+	List<Product> getProducts(Database database){
+		//fetch product data from database
+		return null;
+	}
+	boolean save(List<Product> productList) {
+		//save the product list data in external file
+		return false;
+	}
+}
+class Database{}
+class Product{}
+/*
+ * The above class handles 3 operations(responsibilities) i.e. initializing the database, 
+ * fetching the data and writing that data in external file.
+ * So we can make 3 classes for each operation in order to apply SRP.
+ */
+
+class DatabaseConnectionUtils{
+	Database initDb() {
+		//open database connection here
+		return null;
+	}
+}
+
+class DatabaseUtils{
+	List<Product> getProducts(Database database){
+		//fetch product data from database
+		return null;
+	}
+}
+
+class FileUtils{
+	boolean save(List<Product> productList) {
+		//save the product list data in external file
+		return false;
+	}
+}
+```
 
 **Example 3**
+
+```
+package srp;
+
+public interface Modem {
+	public void dial(String phone);
+	public void hangup();
+	
+	public void send(char ch);
+	public char receive();
+}
+/*
+ * This interface got two responsibility, one is connection management 
+ * and the other is data communication
+ * We can make 2 interfaces here to achieve SRP
+*/
+interface ModemConnection{
+	public void dial(String phone);
+	public void hangup();
+}
+
+interface ModemDataManagement{
+	public void send(char ch);
+	public char receive();
+}
+```
 
  ### Reference
  **1.** [https://academy.realm.io/posts/donn-felker-solid-part-1/](https://academy.realm.io/posts/donn-felker-solid-part-1/)
