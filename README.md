@@ -23,7 +23,9 @@ It was Michael Feathers (the author of &quot;Working Effectively with Legacy Cod
 - In addition to being the most difficult to implement, SRP is also the most fundamental SOLID principle. The more the design violates SRP, the less the gain from application of other SOLID principles will be.
 - To know whether a class follow SRP ask &quot;What that class does?&quot; If you have to use the conjunction &quot;and&quot; or &quot;or&quot; the it is likely that class don&#39;t follow SRP
 
-
+### What is meant by “Responsibility” though?
+Uncle Bob quote - 
+> In the context of the Single Responsibility Principle (SRP) we define a responsibility as “a reason for change”. If you can think of more than one motive for changing a class, then that class has more than one responsibility.
 
 **Benefits**
 
@@ -75,4 +77,5 @@ class EmployeeRepo{
 
 **Example 3**
 
- 
+ ### Reference
+ **1.** [https://academy.realm.io/posts/donn-felker-solid-part-1/](https://academy.realm.io/posts/donn-felker-solid-part-1/)
