@@ -7,7 +7,7 @@ The importance of SOLID comes from the fact that it is practically impossible to
 
 SOLID principle are not rules or laws or perfect truth. It is a good principle or advice in order to write &quot;clean&quot; code.
 
-Developed by American software engineer &amp; instructor Robert C Martin (also known as Uncle Bob) in his tech paper &quot;Design principles &amp; design patterns&quot;
+Developed by American software engineer &amp; instructor Robert C Martin (also known as Uncle Bob) in his 2000 paper &quot;Design principles &amp; design patterns&quot;
 
 It was Michael Feathers (the author of &quot;Working Effectively with Legacy Code&quot;) who &quot;acronymized&quot; these principles to SOLID.
 
