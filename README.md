@@ -12,7 +12,7 @@ Developed by American software engineer &amp; instructor Robert C Martin (also k
 It was Michael Feathers (the author of &quot;Working Effectively with Legacy Code&quot;) who &quot;acronymized&quot; these principles to SOLID.
 
 
-### 1.Single Responsibility Principle (SRP)
+### 1. Single Responsibility Principle (SRP)
 
 - **A class should have one and only one reason to change**
 - In SRP responsibility is &quot;reason to change&quot;.
@@ -149,3 +149,4 @@ interface ModemDataManagement{
 
  ### Reference
  **1.** [https://academy.realm.io/posts/donn-felker-solid-part-1/](https://academy.realm.io/posts/donn-felker-solid-part-1/)
+ **2.** [https://android.jlelse.eu/single-responsibility-principle-and-context-60e39a28e5bd](https://android.jlelse.eu/single-responsibility-principle-and-context-60e39a28e5bd)
