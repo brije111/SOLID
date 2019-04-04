@@ -11,12 +11,10 @@ Developed by American software engineer &amp; instructor Robert C Martin (also k
 
 It was Michael Feathers (the author of &quot;Working Effectively with Legacy Code&quot;) who &quot;acronymized&quot; these principles to SOLID.
 
-#
 
-**1.Single Responsibility Principle (SRP)**
+### 1.Single Responsibility Principle (SRP)
 
-
-- A class should have one and only one reason to change
+- **A class should have one and only one reason to change**
 - In SRP responsibility is &quot;reason to change&quot;.
 - SRP looks simple on the first glance, but it is, probably, the most difficult SOLID principle to follow in practice.
 - Following SRP is difficult because &quot;reasons to change&quot; become certain only in the future, when requirements actually change. At design time, all we can do is estimate which requirements are likely to change and which are stable. In other words, following SRP inevitably involves some amount of prophetic work.
